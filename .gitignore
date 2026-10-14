@@ -1,0 +1,14 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Firmware dumps and bench logs should never be committed.
+*.bin
+*.dump
+*.img
+*.rom
+*.log
